@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Barns Matte-Cheat Sheet</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 20px;
+      line-height: 1.4;
+      font-size: 14pt;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    h2, h3 {
+      color: #0066cc;
+      margin-top: 1.2em;
+    }
+    ul {
+      padding-left: 1.5em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1em 0;
+      font-size: 12pt;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 6px 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f0f0f0;
+      font-weight: bold;
+    }
+    /* Sidbrytningsregler – viktig del */
+    @media print {
+      tr {
+        page-break-inside: avoid;
+      }
+      table {
+        page-break-inside: auto;
+      }
+      thead {
+        display: table-header-group;
+      }
+      tfoot {
+        display: table-footer-group;
+      }
+      tbody {
+        page-break-inside: avoid;
+      }
+      /* Försök hålla rubriker med tabellen */
+      h2, h3 {
+        page-break-after: avoid;
+      }
+      /* Undvik att lämna en ensam rad högst upp/nederst */
+      tr:last-child {
+        page-break-after: avoid;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h1>BARNS MATTE-CHEAT SHEET – Snabba påminnelser!</h1>
+
+<h2>1. METRISKA ENHETER</h2>
+<p>(längd: meter | vikt: gram | volym: liter)</p>
+
+<ul>
+  <li><strong>kilo</strong> (k) = ×1000 → 1 kg = 1000 g | 1 km = 1000 m</li>
+  <li><strong>hekto</strong> (h) = ×100</li>
+  <li><strong>deka</strong> (da) = ×10</li>
+  <li><strong>basenhet</strong> = 1 (1 m, 1 g, 1 L)</li>
+  <li><strong>deci</strong> (d) = ÷10 = 0,1</li>
+  <li><strong>centi</strong> (c) = ÷100 = 0,01 → 100 cm = 1 m | 100 cl = 1 L</li>
+  <li><strong>milli</strong> (m) = ÷1000 = 0,001 → 1000 mm = 1 m | 1000 mg = 1 g | 1000 ml = 1 L</li>
+  <li><strong>mega</strong> (M) = ×1 000 000 (väldigt stort!)</li>
+  <li><strong>mikro</strong> (µ) = ÷1 000 000 (väldigt litet!)</li>
+</ul>
+
+<h2>2. VIKT</h2>
+<p>1 hg (hektogram) = 100 g<br>1 kg = 1000 g = 10 hg</p>
+
+<h2>3. LÄNGD</h2>
+<p>1 km = 1000 m<br>1 m = 100 cm = 1000 mm</p>
+
+<h2>4. VOLYM (hur mycket vätska)</h2>
+<p>1 L = 1000 ml</p>
+
+<h2>5. TIDSENHETER</h2>
+<ul>
+  <li>60 sekunder = 1 minut</li>
+  <li>60 minuter = 1 timme</li>
+  <li>24 timmar = 1 dygn</li>
+  <li>7 dygn = 1 vecka</li>
+  <li>365 dygn ≈ 1 år (366 i skottår)</li>
+  <li>12 månader = 1 år</li>
+</ul>
+
+<h2>6. BRÅK → DECIMALTAL → PROCENT</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Bråk</th>
+      <th>Decimaltal</th>
+      <th>Procent</th>
+      <th>Bildtips</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1/1</td><td>1,0</td><td>100 %</td><td>hela pizzan</td></tr>
+    <tr><td>1/2</td><td>0,5</td><td>50 %</td><td>halva</td></tr>
+    <tr><td>2/2</td><td>1,0</td><td>100 %</td><td>hela igen</td></tr>
+    <tr><td>1/3</td><td>≈0,333…</td><td>≈33,3 %</td><td>en tredjedel</td></tr>
+    <tr><td>2/3</td><td>≈0,666…</td><td>≈66,7 %</td><td>två tredjedelar</td></tr>
+    <tr><td>3/3</td><td>1,0</td><td>100 %</td><td>hela</td></tr>
+    <tr><td>1/4</td><td>0,25</td><td>25 %</td><td>en fjärdedel</td></tr>
+    <tr><td>2/4</td><td>0,5</td><td>50 %</td><td>halva (samma som 1/2)</td></tr>
+    <tr><td>3/4</td><td>0,75</td><td>75 %</td><td>tre fjärdedelar</td></tr>
+    <tr><td>4/4</td><td>1,0</td><td>100 %</td><td>hela</td></tr>
+    <tr><td>1/5</td><td>0,2</td><td>20 %</td><td>en femtedel</td></tr>
+    <tr><td>2/5</td><td>0,4</td><td>40 %</td><td>två femtedelar</td></tr>
+    <tr><td>3/5</td><td>0,6</td><td>60 %</td><td>tre femtedelar</td></tr>
+    <tr><td>4/5</td><td>0,8</td><td>80 %</td><td>
